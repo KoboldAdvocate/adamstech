@@ -1,8 +1,10 @@
 import React from "react";
 
+import { Container } from "react-bootstrap";
+
 function AIPage() {
   return (
-    <div>
+    <Container>
       <h1>Tic-Tac-Toe and Min-Max</h1>
       <div>
         <div>
@@ -40,7 +42,7 @@ function AIPage() {
           </p>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
 

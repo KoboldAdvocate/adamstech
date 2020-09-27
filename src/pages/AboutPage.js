@@ -1,13 +1,13 @@
 import React from "react";
 
-import { Col, Container, Image, Jumbotron, Row } from "react-bootstrap";
+import { Col, Container, Jumbotron, Row } from "react-bootstrap";
 
 function AboutPage() {
   return (
     <Container>
       <Row>
         <Col>
-          <Jumbotron id="about">
+          <Jumbotron>
             <h1>About Me</h1>
           </Jumbotron>
         </Col>
@@ -27,20 +27,6 @@ function AboutPage() {
         </Col>
       </Row>
       <br />
-      <h3>External Sites</h3>
-      <br />
-      <Row>
-        <Col>
-          <a href="">
-            <Image fluid src={require("../assets/linkedinlogo.png")} />
-          </a>
-        </Col>
-        <Col>
-          <a href="https://github.com/koboldadvocate">
-            <Image fluid src={require("../assets/github.png")} />
-          </a>
-        </Col>
-      </Row>
     </Container>
   );
 }

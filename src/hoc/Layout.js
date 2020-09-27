@@ -7,7 +7,7 @@ export default function Layout(props) {
   return (
     <div
       className="container-fluid text-center"
-      style={{ backgroundColor: "#FFFFFF" }}
+      style={{ backgroundColor: "#FFFAF5" }}
     >
       <Navbar
         className="fixed-top"
@@ -22,12 +22,14 @@ export default function Layout(props) {
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#augmentedreality">A.R.</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#about">About Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       {props.children}
-      <Navbar bg="light">AdamsTech.org 2020</Navbar>
+      <Navbar className="fixed-bottom" bg="light">
+        AdamsTech.org 2020
+      </Navbar>
     </div>
   );
 }

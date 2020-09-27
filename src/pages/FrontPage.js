@@ -17,7 +17,7 @@ export default function FrontPage() {
         <p>Currently under heavy construction</p>
         <Image
           src={require("../assets/catstruction.gif")}
-          roundedCirclegame
+          roundedCircle
           fluid
         />
       </div>

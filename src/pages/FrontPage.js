@@ -38,7 +38,7 @@ export default function FrontPage() {
 
       <hr />
 
-      <div className={styles.pagecontainer}>
+      <div className={styles.pagecontainer} id="contact">
         <ExternalPage />
       </div>
     </div>

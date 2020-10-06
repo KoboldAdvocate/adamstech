@@ -3,6 +3,8 @@ import { Nav } from "react-bootstrap";
 
 import Navbar from "react-bootstrap/Navbar";
 
+import "./Layout.css";
+
 export default function Layout(props) {
   return (
     <div

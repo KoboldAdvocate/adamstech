@@ -9,7 +9,9 @@ function ARPage() {
         <Col>
           <Figure>
             <Figure.Image src={require("../assets/ar_chicken.gif")} />
-            <Figure.Caption>Early prototype for Eggtub AR</Figure.Caption>
+            <Figure.Caption>
+              Practice example from prototype AR game
+            </Figure.Caption>
           </Figure>
         </Col>
         <Col>

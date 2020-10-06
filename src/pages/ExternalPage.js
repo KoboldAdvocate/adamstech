@@ -16,7 +16,7 @@ export default function ExternalPage() {
             </a>
           </Col>
           <Col>
-            <a href="https://github.com/koboldadvocate">
+            <a href="https://github.com/JustAdams">
               <Image fluid src={require("../assets/github.png")} />
             </a>
           </Col>

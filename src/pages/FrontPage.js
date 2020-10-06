@@ -24,13 +24,20 @@ export default function FrontPage() {
 
       <HomeCarousel />
 
+      <hr />
+
       <div className={styles.pagecontainer} id="augmentedreality">
         <ARPage />
       </div>
 
+      <hr />
+
       <div className={styles.pagecontainer} id="about">
         <AboutPage />
       </div>
+
+      <hr />
+
       <div className={styles.pagecontainer}>
         <ExternalPage />
       </div>

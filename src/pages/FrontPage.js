@@ -5,6 +5,7 @@ import { Image } from "react-bootstrap";
 import styles from "./FrontPage.module.css";
 import AboutPage from "./AboutPage";
 import HomeCarousel from "../components/HomeCarousel";
+import UnityPage from './UnityPage';
 import ARPage from "./ARPage";
 import ExternalPage from "./ExternalPage";
 
@@ -23,6 +24,12 @@ export default function FrontPage() {
       </div>
 
       <HomeCarousel />
+
+      <hr />
+
+      <div className={styles.pagecontainer} id="unity">
+        <UnityPage />
+      </div>
 
       <hr />
 

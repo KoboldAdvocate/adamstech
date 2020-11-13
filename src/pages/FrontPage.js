@@ -7,6 +7,7 @@ import AboutPage from "./AboutPage";
 import HomeCarousel from "../components/HomeCarousel";
 import UnityPage from './UnityPage';
 import ARPage from "./ARPage";
+import ArduinoPage from './ArduinoPage';
 import ExternalPage from "./ExternalPage";
 
 export default function FrontPage() {
@@ -15,7 +16,6 @@ export default function FrontPage() {
       <div className={styles.pagecontainer} id="home">
         <h1>Welcome to my website</h1>
         <p>Half portfolio, half for fun</p>
-        <p>Currently under heavy construction</p>
         <Image
           src={require("../assets/catstruction.gif")}
           roundedCircle
@@ -23,19 +23,6 @@ export default function FrontPage() {
         />
       </div>
 
-      <HomeCarousel />
-
-      <hr />
-
-      <div className={styles.pagecontainer} id="unity">
-        <UnityPage />
-      </div>
-
-      <hr />
-
-      <div className={styles.pagecontainer} id="augmentedreality">
-        <ARPage />
-      </div>
 
       <hr />
 

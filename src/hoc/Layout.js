@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { Image, Nav } from "react-bootstrap";
 
 import Navbar from "react-bootstrap/Navbar";
 
@@ -16,17 +16,17 @@ export default function Layout(props) {
         style={{ background: "#B86F52" }}
         expand="sm"
       >
+
         <Navbar.Brand>
           <h2>Justin Adams</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#unity">Unity</Nav.Link>
-            <Nav.Link href="#augmentedreality">A.R.</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            
+            <Nav.Link href="#home"><h4>Home</h4></Nav.Link>
+            <Nav.Link href="#about"><h4>About Me</h4></Nav.Link>
+            <Nav.Link href="#contact"><h4>Contact</h4></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

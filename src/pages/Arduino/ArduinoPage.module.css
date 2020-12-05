@@ -1,0 +1,21 @@
+.arduinoPage {
+  padding: 10px;
+}
+
+.container {
+  margin: 100px;
+}
+
+.header {
+  padding-bottom: 50px;
+}
+
+.partsList {
+  margin-left: 50px;
+  width: 400px;
+}
+
+.sidebar {
+  display: flex;
+  margin-top: 25px;
+}

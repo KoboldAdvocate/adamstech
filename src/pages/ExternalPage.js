@@ -21,13 +21,7 @@ export default function ExternalPage() {
             </a>
           </Col>
         </Row>
-        <Row>
-        <Col>
-            <a href="https://justadams.itch.io/">
-              <Image fluid src={require("../assets/itchio.png")} />
-            </a>
-          </Col>
-        </Row>
+
       </div>
     </Container>
   );

@@ -7,7 +7,7 @@ import AboutPage from "./AboutPage";
 import HomeCarousel from "../components/HomeCarousel";
 import UnityPage from './UnityPage';
 import ARPage from "./ARPage";
-import ArduinoPage from './ArduinoPage';
+import ArduinoPage from './Arduino/ArduinoPage';
 import ExternalPage from "./ExternalPage";
 
 export default function FrontPage() {
@@ -22,7 +22,6 @@ export default function FrontPage() {
           fluid
         />
       </div>
-
 
       <hr />
 

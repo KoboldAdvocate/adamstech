@@ -1,16 +1,18 @@
 import React from "react";
-
+import { Router } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import Layout from "./hoc/Layout";
-import FrontPage from "./pages/FrontPage";
+import history from './services/history';
+import Routes from './routes';
 
 function App() {
   return (
-    <div>
+    <Router history={history}>
       <Layout>
-        <FrontPage />
+        <Routes />
       </Layout>
-    </div>
+    </Router>
   );
 }
 

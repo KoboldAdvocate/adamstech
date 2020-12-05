@@ -1,5 +1,6 @@
 body {
-  padding-top: 60px;
+  margin-top: 25px;
+  padding-top: 50px;
 }
 
 @media (max-width: 979px) {

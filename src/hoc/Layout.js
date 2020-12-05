@@ -24,9 +24,8 @@ export default function Layout(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             
-            <Nav.Link href="#home"><h4>Home</h4></Nav.Link>
-            <Nav.Link href="#about"><h4>About Me</h4></Nav.Link>
-            <Nav.Link href="#contact"><h4>Contact</h4></Nav.Link>
+            <Nav.Link href="/"><h4>Home</h4></Nav.Link>
+            <Nav.Link href="/arduino"><h4>Arduino</h4></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

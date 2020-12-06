@@ -16,7 +16,7 @@ function ArduinoPage() {
         />
         
         <div className={styles.sidebar}>
-            <DropdownButton title="Projects">
+            <DropdownButton title="Tutorials">
                 <Dropdown.Item onClick={() => setProject(<BlinkingLight />)}>Blinking Light</Dropdown.Item>
                 <Dropdown.Item onClick={() => setProject(<WeatherStation />)}>Weather Station</Dropdown.Item>
             </DropdownButton>

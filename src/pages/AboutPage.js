@@ -13,11 +13,14 @@ function AboutPage() {
         </Col>
         <Col>
           <p>
-            My name is Justin Adams. I have graduated Cum Laude with a
+            My name is Justin Adams, and I'm a software developer. I have graduated Cum Laude with a
             double-major in Computer Science and Biology from the{" "}
-            <a href="umw.edu">University of Mary Washington</a>. There I was the
-            Vice-President of the UMW ACM chapter, where my chief role was the organization and management of 
-            the annual Hack-a-Thon, and assisting in helping other students understand the courses subject material.
+            <a href="umw.edu">University of Mary Washington</a>, where I was also the Vice-President of the UMW ACM Chapter.          
+          </p>
+          <br />
+          <p>
+            Professionally, I currently develop simulated training environments with the goal of replacing real-world training.
+            For fun, I like to build projects with Arduino/Pi for GPIO hardware interfacing. You can also usually find me in the gym or eating.
           </p>
         </Col>
       </Row>

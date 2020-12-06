@@ -23,7 +23,7 @@ function BlinkingLight() {
                                     <li>One Breadboard</li>
                                     <li>One LED</li>
                                     <li>Two (2) jumper wires</li>
-                                    <li>One 220 ohm resistor (not necessary,but        will   reducethebrightness andpreserve your LEDs   lifespan)</    li>
+                                    <li>One 220 ohm resistor (not necessary,but will reduce the brightness and preserve your LEDs lifespan)</li>
                                 </ul>
                             </div>
                         </div>

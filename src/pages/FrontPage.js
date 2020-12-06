@@ -34,6 +34,10 @@ export default function FrontPage() {
       <div className={styles.pagecontainer} id="contact">
         <ExternalPage />
       </div>
+      
+      <small>
+        Website written with React.js and hosted on AWS
+      </small>
     </div>
   );
 }

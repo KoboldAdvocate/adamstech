@@ -30,9 +30,7 @@ export default function Layout(props) {
         </Navbar.Collapse>
       </Navbar>
       {props.children}
-      <Navbar className="fixed-bottom" bg="light">
-        AdamsTech.org 2020
-      </Navbar>
+
     </div>
   );
 }

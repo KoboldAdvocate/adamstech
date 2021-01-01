@@ -32,8 +32,15 @@ function BlinkingLight() {
                     <div class="col-md">
                         <Image src={require("./blinkinglight.png")} fluid />
                     </div>
-
                 </div>
+                <h3>The Code</h3>
+                <blockquote>
+                <code>
+                    <p>#define led_pin 7</p>
+                <p>void setup()\{}</p>
+                </code>
+                </blockquote>
+                
             </div>
 
         </div>

@@ -11,7 +11,7 @@ export default function ExternalPage() {
       <div>
         <Row>
           <Col>
-            <a href="https://www.linkedin.com/in/adams-tech/">
+            <a href="https://www.linkedin.com/in/justadams/">
               <Image fluid src={require("../assets/linkedinlogo.png")} />
             </a>
           </Col>

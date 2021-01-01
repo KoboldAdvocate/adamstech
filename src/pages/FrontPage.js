@@ -16,11 +16,6 @@ export default function FrontPage() {
       <div className={styles.pagecontainer} id="home">
         <h1>Welcome to my website</h1>
         <p>Half portfolio, half for fun</p>
-        <Image
-          src={require("../assets/catstruction.gif")}
-          roundedCircle
-          fluid
-        />
       </div>
 
       <hr />
@@ -35,9 +30,12 @@ export default function FrontPage() {
         <ExternalPage />
       </div>
       
+      <div>
       <small>
-        Website written with React.js and hosted on AWS
+        Built using ReactJS and AWS
       </small>
+      </div>
+      
     </div>
   );
 }
